@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    background-color:  rgba(224, 224, 224, 0.964);
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    background-color: rgba(224, 224, 224, 0.964);
+}
+.card{
+    box-shadow: 0px 5px 10px rgb(78, 78, 78);
+    border-radius: 10%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    width: 420px;
+}
+.upper{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(71, 157, 249);
+    height: 200px;
+    width: 400px;
+}
+.upper img{
+    position: relative;  
+    border-radius: 50%;
+    border: 3px solid #ffff;
+    height: 200px;
+    width: 200PX;
+}
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.lower{
+    background-color: aliceblue;
+    font-family: "Poppins", serif;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 230px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower p {
+    background-color: aliceblue;
+}
+.lower span{
+    width: 200px; 
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+span a{
+    background-color: aliceblue;
+}
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Add more styles for small devices here */
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    /* Add more styles for medium devices here */
+}
+
+/* Large devices (laptops/desktops, 768px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+    /* Add more styles for large devices here */
+}
+
+/* Extra large devices (large laptops and desktops, 992px and up) */
+@media only screen and (min-width: 993px) {
+    body {
+        font-size: 18px;
+    }
+    /* Add more styles for extra large devices here */
+}
+
+/* Specific styles for very small devices (e.g., iPhone 5/SE) */
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+    /* Add more styles for very small devices here */
+}
+
+/* Specific styles for landscape orientation */
+@media only screen and (orientation: landscape) {
+    body {
+        font-size: 16px;
+    }
+    /* Add more styles for landscape orientation here */
+}
+
+/* Specific styles for portrait orientation */
+@media only screen and (orientation: portrait) {
+    body {
+        font-size: 14px;
+    }
+    /* Add more styles for portrait orientation here */
+}
